@@ -192,6 +192,9 @@ jobs:
         include:
           - platform: x86_64
             url_sdk: https://downloads.openwrt.org/releases/23.05.0/targets/x86/64/openwrt-sdk-23.05.0-x86-64_gcc-12.3.0_musl.Linux-x86_64.tar.xz
+            
+          - platform: i386_pentium4
+            url_sdk: https://downloads.openwrt.org/releases/23.05.0/targets/x86/generic/openwrt-sdk-23.05.0-x86-generic_gcc-12.3.0_musl.Linux-x86_64.tar.xz
 
           - platform: aarch64_generic
             url_sdk: https://downloads.openwrt.org/releases/23.05.0/targets/rockchip/armv8/openwrt-sdk-23.05.0-rockchip-armv8_gcc-12.3.0_musl.Linux-x86_64.tar.xz
